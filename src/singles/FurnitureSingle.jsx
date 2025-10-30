@@ -1,0 +1,59 @@
+import React from "react";
+import { furnitureData } from "../stores/data/furniture";
+import { useParams } from "react-router-dom";
+import Navbar from "../stores/components/Navbar";
+import { useCart } from "../stores/context/CartContext";
+
+
+const FurnitureSingle = () => {
+  const { id } = useParams();
+  const { addToCart, cart } = useCart();
+
+
+
+  const product =
+    furnitureData.find((item) => item.id === Number(id)) ||
+    furnitureData.find((item) => item.id === id);
+
+
+  if (!product) {
+    return (
+      <>
+        <Navbar />
+        <h2 style={{ textAlign: "center", marginTop: "50px" }}>
+          Product not found for ID={id}
+        </h2>
+      </>
+    );
+  }
+
+  return (
+    <>
+      <Navbar />
+      <div className="ind-section">
+        <div className="ind-image">
+          <img src={product.image} alt={product.model} />
+        </div>
+        <div className="ind-details space">
+          <div className="ind-company">
+            <h2>{product.company}</h2>
+          </div>
+          <div className="ind-model space">
+            <h3>{product.model}</h3>
+          </div>
+          <div className="ind-price space">
+            <h2>{product.price}</h2>
+          </div>
+          <div className="ind-desc space">
+            <p>{product.description}</p>
+          </div>
+
+          <button onClick={() => addToCart(product)} className="add-to-cart-btn">Add to Cart</button>
+
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default FurnitureSingle;
