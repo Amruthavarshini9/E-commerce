@@ -1,7 +1,7 @@
 export const booksData = [{
         "id": "1",
         "product": "Book",
-        "image": "assets/Books/1.jpg",
+        "image": process.env.PUBLIC_URL + "/assets/Books/1.jpg",
         "title": "The Great Gatsby",
         "author": "F. Scott Fitzgerald",
         "price": "12.99",
@@ -11,7 +11,7 @@ export const booksData = [{
     {
         "id": "2",
         "product": "Book",
-        "image": "assets/Books/2.jpg",
+        "image": process.env.PUBLIC_URL + "/assets/Books/2.jpg",
         "title": "To Kill a Mockingbird",
         "author": "Harper Lee",
         "price": "10.50",
@@ -21,7 +21,7 @@ export const booksData = [{
     {
         "id": "3",
         "product": "Book",
-        "image": "assets/Books/3.jpg",
+        "image": process.env.PUBLIC_URL + "/assets/Books/3.jpg",
         "title": "1984",
         "author": "George Orwell",
         "price": "9.99",
@@ -31,7 +31,7 @@ export const booksData = [{
     {
         "id": "4",
         "product": "Book",
-        "image": "assets/Books/4.jpg",
+        "image": process.env.PUBLIC_URL + "/assets/Books/4.jpg",
         "title": "Pride and Prejudice",
         "author": "Jane Austen",
         "price": "8.75",
@@ -41,7 +41,7 @@ export const booksData = [{
     {
         "id": "5",
         "product": "Book",
-        "image": "assets/Books/5.jpg",
+        "image": process.env.PUBLIC_URL + "/assets/Books/5.jpg",
         "title": "The Hobbit",
         "author": "J.R.R. Tolkien",
         "price": "14.99",
@@ -51,7 +51,7 @@ export const booksData = [{
     {
         "id": "6",
         "product": "Book",
-        "image": "assets/Books/6.jpg",
+        "image": process.env.PUBLIC_URL + "/assets/Books/6.jpg",
         "title": "Harry Potter and the Sorcerer's Stone",
         "author": "J.K. Rowling",
         "price": "11.25",
@@ -61,7 +61,7 @@ export const booksData = [{
     {
         "id": "7",
         "product": "Book",
-        "image": "assets/Books/7.jpg",
+        "image": process.env.PUBLIC_URL + "/assets/Books/7.jpg",
         "title": "The Catcher in the Rye",
         "author": "J.D. Salinger",
         "price": "9.50",
@@ -71,7 +71,7 @@ export const booksData = [{
     {
         "id": "8",
         "product": "Book",
-        "image": "assets/Books/8.jpg",
+        "image": process.env.PUBLIC_URL + "/assets/Books/8.jpg",
         "title": "The Lord of the Rings",
         "author": "J.R.R. Tolkien",
         "price": "24.99",
@@ -81,7 +81,7 @@ export const booksData = [{
     {
         "id": "9",
         "product": "Book",
-        "image": "assets/Books/9.jpg",
+        "image": process.env.PUBLIC_URL + "/assets/Books/9.jpg",
         "title": "The Hunger Games",
         "author": "Suzanne Collins",
         "price": "13.75",
@@ -91,7 +91,7 @@ export const booksData = [{
     {
         "id": "10",
         "product": "Book",
-        "image": "assets/Books/10.jpg",
+        "image": process.env.PUBLIC_URL + "/assets/Books/10.jpg",
         "title": "Brave New World",
         "author": "Aldous Huxley",
         "price": "10.99",
@@ -101,7 +101,7 @@ export const booksData = [{
     {
         "id": "11",
         "product": "Book",
-        "image": "assets/Books/11.jpg",
+        "image": process.env.PUBLIC_URL + "/assets/Books/11.jpg",
         "title": "The Alchemist",
         "author": "Paulo Coelho",
         "price": "7.99",
@@ -111,7 +111,7 @@ export const booksData = [{
     {
         "id": "12",
         "product": "Book",
-        "image": "assets/Books/12.jpg",
+        "image": process.env.PUBLIC_URL + "/assets/Books/12.jpg",
         "title": "The Girl on the Train",
         "author": "Paula Hawkins",
         "price": "9.25",

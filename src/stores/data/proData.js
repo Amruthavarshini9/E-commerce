@@ -1,6 +1,6 @@
 export const mobileData = [{
         "product": "Mobile",
-        "image": "assets/Mobiles/1.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Mobiles/1.jpg",
         "company": "Apple",
         "model": "iPhone 13 Pro",
         "price": "1099.00",
@@ -9,7 +9,7 @@ export const mobileData = [{
     },
     {
         "product": "Mobile",
-        "image": "assets/Mobiles/2.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Mobiles/2.jpg",
         "company": "Samsung",
         "model": "Galaxy Z Fold 3",
         "price": "1799.00",
@@ -18,7 +18,7 @@ export const mobileData = [{
     },
     {
         "product": "Mobile",
-        "image": "assets/Mobiles/3.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Mobiles/3.jpg",
         "company": "Google",
         "model": "Pixel 6",
         "price": "799.99",
@@ -27,7 +27,7 @@ export const mobileData = [{
     },
     {
         "product": "Mobile",
-        "image": "assets/Mobiles/4.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Mobiles/4.jpg",
         "company": "OnePlus",
         "model": "9 Pro",
         "price": "899.00",
@@ -36,7 +36,7 @@ export const mobileData = [{
     },
     {
         "product": "Mobile",
-        "image": "assets/Mobiles/5.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Mobiles/5.jpg",
         "company": "Xiaomi",
         "model": "Mi 11 Ultra",
         "price": "999.50",
@@ -45,7 +45,7 @@ export const mobileData = [{
     },
     {
         "product": "Mobile",
-        "image": "assets/Mobiles/6.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Mobiles/6.jpg",
         "company": "Sony",
         "model": "Xperia 1 III",
         "price": "1199.00",
@@ -54,7 +54,7 @@ export const mobileData = [{
     },
     {
         "product": "Mobile",
-        "image": "assets/Mobiles/7.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Mobiles/7.jpg",
         "company": "LG",
         "model": "G9 ThinQ",
         "price": "749.00",
@@ -63,7 +63,7 @@ export const mobileData = [{
     },
     {
         "product": "Mobile",
-        "image": "assets/Mobiles/8.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Mobiles/8.jpg",
         "company": "Motorola",
         "model": "Edge 20",
         "price": "599.99",
@@ -72,7 +72,7 @@ export const mobileData = [{
     },
     {
         "product": "Mobile",
-        "image": "assets/Mobiles/9.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Mobiles/9.jpg",
         "company": "Huawei",
         "model": "P50 Pro",
         "price": "1299.00",
@@ -81,7 +81,7 @@ export const mobileData = [{
     },
     {
         "product": "Mobile",
-        "image": "assets/Mobiles/10.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Mobiles/10.jpg",
         "company": "Oppo",
         "model": "Find X5 Pro",
         "price": "899.50",
@@ -90,7 +90,7 @@ export const mobileData = [{
     },
     {
         "product": "Mobile",
-        "image": "assets/Mobiles/11.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Mobiles/11.jpg",
         "company": "Nokia",
         "model": "8.4 5G",
         "price": "549.00",
@@ -99,7 +99,7 @@ export const mobileData = [{
     },
     {
         "product": "Mobile",
-        "image": "assets/Mobiles/12.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Mobiles/12.jpg",
         "company": "Realme",
         "model": "GT Master Edition",
         "price": "379.99",
@@ -109,7 +109,7 @@ export const mobileData = [{
 ]
 export const acData = [{
         "product": "Air Conditioner",
-        "image": "assets/Ac/1.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Ac/1.jpg",
         "company": "LG",
         "model": "CoolTech 5000",
         "price": "799.99",
@@ -118,7 +118,7 @@ export const acData = [{
     },
     {
         "product": "AC Unit",
-        "image": "assets/Ac/2.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Ac/2.jpg",
         "company": "Daikin",
         "model": "ClimateMaster Pro",
         "price": "1299.00",
@@ -127,7 +127,7 @@ export const acData = [{
     },
     {
         "product": "Cooling System",
-        "image": "assets/Ac/3.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Ac/3.jpg",
         "company": "Carrier",
         "model": "Arctic Breeze 300",
         "price": "899.99",
@@ -136,7 +136,7 @@ export const acData = [{
     },
     {
         "product": "Air Cooler",
-        "image": "assets/Ac/4.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Ac/4.jpg",
         "company": "Honeywell",
         "model": "FrostFlow XL",
         "price": "299.50",
@@ -145,7 +145,7 @@ export const acData = [{
     },
     {
         "product": "Window AC",
-        "image": "assets/Ac/5.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Ac/5.jpg",
         "company": "Whirlpool",
         "model": "ChillGuard 800",
         "price": "549.00",
@@ -154,7 +154,7 @@ export const acData = [{
     },
     {
         "product": "Smart AC",
-        "image": "assets/Ac/6.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Ac/6.jpg",
         "company": "Nest",
         "model": "EcoCool Smart+",
         "price": "899.99",
@@ -163,7 +163,7 @@ export const acData = [{
     },
     {
         "product": "Inverter AC",
-        "image": "assets/Ac/7.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Ac/7.jpg",
         "company": "Mitsubishi",
         "model": "SilentComfort 1200i",
         "price": "1499.00",
@@ -172,7 +172,7 @@ export const acData = [{
     },
     {
         "product": "Portable AC",
-        "image": "assets/Ac/8.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Ac/8.jpg",
         "company": "Frigidaire",
         "model": "EZCool Portable 400",
         "price": "399.99",
@@ -181,7 +181,7 @@ export const acData = [{
     },
     {
         "product": "Ducted AC",
-        "image": "assets/Ac/9.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Ac/9.jpg",
         "company": "Lennox",
         "model": "PureAir Ducted 6000",
         "price": "2499.00",
@@ -190,7 +190,7 @@ export const acData = [{
     },
     {
         "product": "Wall-Mount AC",
-        "image": "assets/Ac/10.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Ac/10.jpg",
         "company": "Panasonic",
         "model": "WallMaster Pro 1800",
         "price": "749.00",
@@ -199,7 +199,7 @@ export const acData = [{
     },
     {
         "product": "Split AC",
-        "image": "assets/Ac/11.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Ac/11.jpg",
         "company": "Haier",
         "model": "CoolWave Split 220",
         "price": "649.50",
@@ -208,7 +208,7 @@ export const acData = [{
     },
     {
         "product": "Central AC",
-        "image": "assets/Ac/12.jpg",
+       "image": process.env.PUBLIC_URL + "/assets/Ac/12.jpg",
         "company": "Trane",
         "model": "ClimateCentral 5000",
         "price": "2999.00",
